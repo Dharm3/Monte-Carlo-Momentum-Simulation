@@ -12,20 +12,3 @@ This simulator operates in two distinct modes to explore classical mechanics and
 Ensure you have Python 3.x installed, then install the required dependencies:
 ```bash
 pip install pygame matplotlib
-
-Simulator Controls:
-    - SPACE - Start the visual Pygame simulation
-    - R - Reset balls to their starting positions
-    - 1 / 2 - Select the Blue Ball (1) or Red Ball (2) to edit its properties
-    - E / Q - Increase / Decrease Mass of the selected ball
-    - D / A - Increase / Decrease Velocity of the selected ball
-    - , / . - Rotate the impact angle vector of the selected ball
-    - W / S - Adjust the Coefficient of Restitution (e)
-    - Up / Down - Adjust the starting displacement between the balls
-    - Right / Left - Adjust the surface friction ($\mu$)
-    - M - Trigger the Monte Carlo Statistical Analysis (Runs 5,000 randomized impacts and plots the data)
-
-Core Physics Concepts Are Handled Well:
-    - Conservation of Momentum: Analyzes normal and tangential vectors during oblique impacts.
-    - Coefficient of Restitution (e): Simulates perfectly elastic (e=1) to perfectly inelastic (e=0) collisions.
-    - Work-Energy Principle: Calculates the exact frame-by-frame deceleration of the masses as kinetic energy is lost to surface friction.
